@@ -27,10 +27,10 @@ class ViewController: UIViewController {
         var respuesta = self.moneda.lanzar()
         
         if respuesta == Tirada.cara {
-            self.respuestaLabel.text = "Ha salido cara!"
+            self.respuestaLabel.text = String(format: NSLocalizedString("cara", comment: ""))
             self.monedaImgView.image = imagenCara
         } else {
-            self.respuestaLabel.text = "Ha salido cruz!"
+            self.respuestaLabel.text = String(format: NSLocalizedString("cruz", comment: ""))
             self.monedaImgView.image = imagenCruz
         }
     }

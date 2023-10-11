@@ -14,6 +14,7 @@
 		C75FF3562AD6FD1D008FA715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75FF3552AD6FD1D008FA715 /* Assets.xcassets */; };
 		C75FF3592AD6FD1D008FA715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75FF3572AD6FD1D008FA715 /* LaunchScreen.storyboard */; };
 		C75FF3612AD7017F008FA715 /* Moneda.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75FF3602AD7017F008FA715 /* Moneda.swift */; };
+		C79CF9412AD7188900C7EEDD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C79CF9432AD7188900C7EEDD /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,10 @@
 		C75FF3602AD7017F008FA715 /* Moneda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneda.swift; sourceTree = "<group>"; };
 		C79CF9392AD70F6F00C7EEDD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		C79CF93A2AD70F6F00C7EEDD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		C79CF93C2AD7158F00C7EEDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		C79CF93E2AD7159300C7EEDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		C79CF9422AD7188900C7EEDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C79CF9442AD7189300C7EEDD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +73,7 @@
 				C75FF3572AD6FD1D008FA715 /* LaunchScreen.storyboard */,
 				C75FF35A2AD6FD1D008FA715 /* Info.plist */,
 				C75FF3602AD7017F008FA715 /* Moneda.swift */,
+				C79CF9432AD7188900C7EEDD /* Localizable.strings */,
 			);
 			path = iMoneda;
 			sourceTree = "<group>";
@@ -132,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C75FF3592AD6FD1D008FA715 /* LaunchScreen.storyboard in Resources */,
+				C79CF9412AD7188900C7EEDD /* Localizable.strings in Resources */,
 				C75FF3562AD6FD1D008FA715 /* Assets.xcassets in Resources */,
 				C75FF3542AD6FD1B008FA715 /* Main.storyboard in Resources */,
 			);
@@ -159,6 +166,7 @@
 			children = (
 				C75FF3532AD6FD1B008FA715 /* Base */,
 				C79CF9392AD70F6F00C7EEDD /* es */,
+				C79CF93C2AD7158F00C7EEDD /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -168,8 +176,18 @@
 			children = (
 				C75FF3582AD6FD1D008FA715 /* Base */,
 				C79CF93A2AD70F6F00C7EEDD /* es */,
+				C79CF93E2AD7159300C7EEDD /* en */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C79CF9432AD7188900C7EEDD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C79CF9422AD7188900C7EEDD /* en */,
+				C79CF9442AD7189300C7EEDD /* es */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

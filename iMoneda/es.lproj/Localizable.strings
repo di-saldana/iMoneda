@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  iMoneda
+
+  Created by Máster Móviles on 11/10/23.
+  
+*/
+
+"cara" = "Ha salido cara!";
+"cruz" = "Ha salido cruz!";
