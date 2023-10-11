@@ -13,6 +13,7 @@
 		C75FF3542AD6FD1B008FA715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75FF3522AD6FD1B008FA715 /* Main.storyboard */; };
 		C75FF3562AD6FD1D008FA715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75FF3552AD6FD1D008FA715 /* Assets.xcassets */; };
 		C75FF3592AD6FD1D008FA715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75FF3572AD6FD1D008FA715 /* LaunchScreen.storyboard */; };
+		C75FF3612AD7017F008FA715 /* Moneda.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75FF3602AD7017F008FA715 /* Moneda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		C75FF3552AD6FD1D008FA715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C75FF3582AD6FD1D008FA715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C75FF35A2AD6FD1D008FA715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75FF3602AD7017F008FA715 /* Moneda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneda.swift; sourceTree = "<group>"; };
+		C79CF9392AD70F6F00C7EEDD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		C79CF93A2AD70F6F00C7EEDD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 				C75FF3552AD6FD1D008FA715 /* Assets.xcassets */,
 				C75FF3572AD6FD1D008FA715 /* LaunchScreen.storyboard */,
 				C75FF35A2AD6FD1D008FA715 /* Info.plist */,
+				C75FF3602AD7017F008FA715 /* Moneda.swift */,
 			);
 			path = iMoneda;
 			sourceTree = "<group>";
@@ -109,6 +114,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = C75FF3402AD6FD1B008FA715;
 			productRefGroup = C75FF34A2AD6FD1B008FA715 /* Products */;
@@ -141,6 +147,7 @@
 				C75FF3512AD6FD1B008FA715 /* ViewController.swift in Sources */,
 				C75FF34D2AD6FD1B008FA715 /* AppDelegate.swift in Sources */,
 				C75FF34F2AD6FD1B008FA715 /* SceneDelegate.swift in Sources */,
+				C75FF3612AD7017F008FA715 /* Moneda.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +158,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C75FF3532AD6FD1B008FA715 /* Base */,
+				C79CF9392AD70F6F00C7EEDD /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +167,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C75FF3582AD6FD1D008FA715 /* Base */,
+				C79CF93A2AD70F6F00C7EEDD /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +179,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -230,6 +240,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; configuration.title = "Lanzar moneda"; ObjectID = "c36-mz-wBQ"; */
+"c36-mz-wBQ.configuration.title" = "Lanzar moneda";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "c36-mz-wBQ"; */
+"c36-mz-wBQ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Resultado"; ObjectID = "efj-wk-RVS"; */
+"efj-wk-RVS.text" = "Resultado";
