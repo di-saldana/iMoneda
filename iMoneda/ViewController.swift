@@ -24,7 +24,7 @@ class ViewController: UIViewController {
 
     
     @IBAction func botonPulsado(_ sender: Any) {
-        var respuesta = self.moneda.lanzar()
+        let respuesta = self.moneda.lanzar()
         
         if respuesta == Tirada.cara {
             self.respuestaLabel.text = String(format: NSLocalizedString("cara", comment: ""))
